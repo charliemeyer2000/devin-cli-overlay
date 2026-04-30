@@ -1,0 +1,21 @@
+{
+  "version": "2026.4.30-0",
+  "platforms": {
+    "x86_64-linux": {
+      "url": "https://static.devin.ai/cli/2026.4.30-0/devin-2026.4.30-0-x86_64-unknown-linux.tar.gz",
+      "hash": "sha256-N6SkF/kISKBFOWz+VKPxUjl2Zrhi8keSnKny7rQJ9AA="
+    },
+    "aarch64-linux": {
+      "url": "https://static.devin.ai/cli/2026.4.30-0/devin-2026.4.30-0-aarch64-unknown-linux.tar.gz",
+      "hash": "sha256-1y+9QlnRAGgAWsfgRYxybkkvE6Exyyc1GbNlJVy57nI="
+    },
+    "aarch64-darwin": {
+      "url": "https://static.devin.ai/cli/2026.4.30-0/devin-2026.4.30-0-aarch64-apple-darwin.tar.gz",
+      "hash": "sha256-dWZIzL5vnOPhfi4nkFKXU5/S5eGgQsc4TaA78LxlMi4="
+    },
+    "x86_64-darwin": {
+      "url": "https://static.devin.ai/cli/2026.4.30-0/devin-2026.4.30-0-x86_64-apple-darwin.tar.gz",
+      "hash": "sha256-sitMKoLmDpROwPI+t7BfyiEmeUe4C+Qev+s7BR1hIeM="
+    }
+  }
+}
