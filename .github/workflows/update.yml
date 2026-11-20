@@ -30,7 +30,9 @@ jobs:
 
       - name: Verify build
         if: steps.check.outputs.new_version == 'true'
-        run: nix build .#devin
+        run: |
+          git add versions/
+          nix build .#devin
 
       - name: Commit and push
         if: steps.check.outputs.new_version == 'true'
